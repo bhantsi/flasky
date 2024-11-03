@@ -86,7 +86,7 @@ def edit(student_id):
 # ...
 
 
-@app.post('/<int:student_id>/delete/')
+@app.route('/<int:student_id>/delete/', methods=['POST'])
 def delete(student_id):
     student = Student.query.get_or_404(student_id)
     db.session.delete(student)

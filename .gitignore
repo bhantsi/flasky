@@ -1,0 +1,28 @@
+# Bytecode compiled files
+*.pyc
+__pycache__/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environment directories
+.venv/
+venv/
+env/
+
+# IDE project files
+.idea/
+.vscode/
+
+# Database files
+*.db
+*.sqlite
+
+# Cache files
+*.log
+*.cache
+
+# Configuration files
+instance/
